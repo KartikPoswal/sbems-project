@@ -1,0 +1,12 @@
+{
+  "sql": "SELECT * FROM 'building/+/+/+/+/+/telemetry'",
+  "actions": [
+    {
+      "lambda": {
+        "functionArn": "arn:aws:lambda:us-east-1:558488221838:function:sbems-telemetry-writer"
+      }
+    }
+  ],
+  "ruleDisabled": false,
+  "awsIotSqlVersion": "2016-03-23"
+}

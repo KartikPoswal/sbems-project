@@ -1,0 +1,13 @@
+{
+  "sql": "SELECT * FROM 'building/+/+/+/+/+/telemetry'",
+  "actions": [
+    {
+      "sqs": {
+        "queueUrl": "https://sqs.us-east-1.amazonaws.com/558488221838/sbems-telemetry-queue",
+        "roleArn": "arn:aws:iam::558488221838:role/LabRole",
+        "useBase64": false
+      }
+    }
+  ],
+  "ruleDisabled": false
+}
